@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_search"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <EditText
+            android:id="@+id/ed_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ddd"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:drawablePadding="5dip"
+            android:textColorHint="#b8b8b8"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:background="@color/bg"/>
+
+</LinearLayout>

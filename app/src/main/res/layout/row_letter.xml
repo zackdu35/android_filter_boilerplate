@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/row_liste_titre_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_search">
+
+        <TextView
+            android:id="@+id/tv_letter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:text="Titre"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            fontPath="fonts/OpenSans-Bold.ttf"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

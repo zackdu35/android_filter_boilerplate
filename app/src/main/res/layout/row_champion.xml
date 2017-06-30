@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/liste_checkboxes_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ddd"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <TextView
+            android:id="@+id/tv_champion_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bluedark"
+            android:textSize="15dp"
+            android:text="item"
+            android:layout_centerVertical="true"
+            fontPath="fonts/OpenSans-Bold.ttf"/>
+
+        <TextView
+            android:id="@+id/tv_champion_pi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bluedark"
+            android:textSize="15dp"
+            android:text="item"
+            fontPath="fonts/OpenSans-Bold.ttf"
+            android:layout_alignBaseline="@+id/tv_champion_name"
+            android:layout_alignBottom="@+id/tv_champion_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="37dp"
+            android:layout_marginEnd="37dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
