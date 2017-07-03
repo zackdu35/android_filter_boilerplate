@@ -12,11 +12,14 @@
         android:id="@+id/row_liste_titre_wrapper"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/bg_search">
+        android:background="@color/bg_search"
+        android:orientation="horizontal"
+        android:elevation="5dp"
+        >
 
         <TextView
             android:id="@+id/tv_letter"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textColor="#fff"
             android:text="Titre"
@@ -25,6 +28,18 @@
             android:paddingBottom="5dp"
             fontPath="fonts/OpenSans-Bold.ttf"/>
 
+
+        <TextView
+            android:id="@+id/tv_pi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:text="PI"
+            android:gravity="right"
+            android:paddingRight="80dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            fontPath="fonts/OpenSans-Bold.ttf"/>
 
     </LinearLayout>
 
